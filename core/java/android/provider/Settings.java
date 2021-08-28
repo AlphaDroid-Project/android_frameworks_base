@@ -6333,14 +6333,12 @@ public final class Settings {
          * 3 - Alpha
          * @hide
          */
-         public static final String SETTINGS_DASHBOARD_STYLE = "settings_dashboard_style";
+        public static final String SETTINGS_DASHBOARD_STYLE = "settings_dashboard_style";
 
         /**
-         * IMPORTANT: If you add a new public settings you also have to add it to
-         * PUBLIC_SETTINGS below. If the new setting is hidden you have to add
-         * it to PRIVATE_SETTINGS below. Also add a validator that can validate
-         * the setting value. See an example above.
+         * @hide
          */
+        public static final String RECENTS_LOCKED_TASKS = "recents_locked_tasks";
 
         /**
          * Whether StatusBar icons should use app icon
@@ -6443,6 +6441,13 @@ public final class Settings {
          */
         public static final String[] LEGACY_RESTORE_SETTINGS = {
         };
+
+        /**
+         * IMPORTANT: If you add a new public settings you also have to add it to
+         * PUBLIC_SETTINGS below. If the new setting is hidden you have to add
+         * it to PRIVATE_SETTINGS below. Also add a validator that can validate
+         * the setting value. See an example above.
+         */
 
         /**
          * These are all public system settings
