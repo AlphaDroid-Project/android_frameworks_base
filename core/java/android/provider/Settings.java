@@ -6326,6 +6326,16 @@ public final class Settings {
         public static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
 
         /**
+         * Settings dashboard styles
+         * 0 - AOSP Legacy
+         * 1 - AOSP Revamped
+         * 2 - DoT
+         * 3 - Alpha
+         * @hide
+         */
+         public static final String SETTINGS_DASHBOARD_STYLE = "settings_dashboard_style";
+
+        /**
          * IMPORTANT: If you add a new public settings you also have to add it to
          * PUBLIC_SETTINGS below. If the new setting is hidden you have to add
          * it to PRIVATE_SETTINGS below. Also add a validator that can validate
